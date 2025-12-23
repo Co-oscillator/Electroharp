@@ -1,0 +1,46 @@
+# Tasks
+
+- [x] detailed codebase implementation plan <!-- id: 0 -->
+- [x] Implement dynamic polyphony governor <!-- id: 1 -->
+    - [x] Add CPU load estimation (buffer render time tracking) <!-- id: 2 -->
+    - [x] Add strum rate detection <!-- id: 3 -->
+    - [x] Implement dynamic voice limit logic <!-- id: 4 -->
+- [x] Verify changes <!-- id: 5 -->
+- [x] Port Governor to Electroharp 3.5 <!-- id: 6 -->
+- [x] Compare with 'Electroharp Fully Working 2.8' <!-- id: 8 -->
+- [x] Investigate Electroharp 3.5 Speaker Code <!-- id: 10 -->
+- [x] Fix Delay Buffer Allocation for 44.1kHz <!-- id: 12 -->
+- [x] Tune Q Compensation (+25% for BT) <!-- id: 13 -->
+- [x] Fix Speaker Gain Scaling (0.65f) <!-- id: 14 -->
+- [x] Restore Splash Screen (Animated 3x) <!-- id: 15 -->
+- [x] Fix Sample Rate Visibility (extern activeSampleRate) <!-- id: 16 -->
+- [x] Verify Timer Settings (Diagnostics Confirmed: Correct) <!-- id: 17 -->
+- [x] Optimize ISR (Direct Register Write) <!-- id: 18 -->
+- [x] Raw Oscillator Test (Filter/FX Bypassed) <!-- id: 19 -->
+- [x] Verify Pitch/Audio Quality <!-- id: 20 -->
+- [x] Restore Splash Screen (Animated 3x) <!-- id: 21 -->
+- [x] Restore Full Audio Chain (SVF / FX) <!-- id: 22 -->
+- [x] Increase Speaker Q Compensation (+50%) <!-- id: 23 -->
+- [x] Fix String Labeling (Root Note tracking) <!-- id: 24 -->
+- [x] Fix String Redraw Artifacts (Boundary error) <!-- id: 25 -->
+- [x] Shift Latched Arp +2 Octaves <!-- id: 26 -->
+- [x] Normalize Sine Wave Pitch <!-- id: 27 -->
+- [x] Debug Augment 2.8 Bluetooth Pairing Crash <!-- id: 28 -->
+- [x] Fix Augment 2.8 String Labeling (Root Note tracking) <!-- id: 29 -->
+- [x] Implement Animated Splash Screen (3x 300ms) <!-- id: 30 -->
+- [x] Change String Highlight Color to Bright Red (Both Versions) <!-- id: 31 -->
+- [x] Sync Volume Bar Color (Cyan for both) <!-- id: 32 -->
+- [x] Promote Augment 2.8 to Electroharp 2.8 v1.3 <!-- id: 11 -->
+- [ ] v1.3 Refinements & Bug Fixes <!-- id: 38 -->
+    - [x] Fix Upper String Range Dimming (Both) <!-- id: 39 -->
+    - [x] Fix Editor Launch (Long-press Waveform) <!-- id: 40 -->
+    - [x] Adjust Dead Zones to 3px (Both) <!-- id: 41 -->
+    - [x] Improve Octave Button Accuracy & Add Numeric Labels <!-- id: 42 -->
+    - [x] Implement Non-linear Volume Slider (Both) <!-- id: 43 -->
+    - [x] Shift Playable Range to C1-C9 (97 Notes, Both) <!-- id: 45 -->
+    - [x] Fix Touch Calibration Targets & Inset Mapping (Both) <!-- id: 46 -->
+    - [ ] 2.8 Final Tweaks <!-- id: 47 -->
+        - [ ] Fix Octave Button Labels (Missing Text) <!-- id: 48 -->
+        - [ ] Shift Latched Arp Notes +1 Octave <!-- id: 49 -->
+        - [ ] Cap Editor Octave Range at 7 <!-- id: 50 -->
+    - [ ] Final Stability & Sync Verification <!-- id: 44 -->
