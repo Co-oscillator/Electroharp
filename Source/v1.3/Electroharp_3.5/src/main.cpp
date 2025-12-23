@@ -458,22 +458,22 @@ float generateMixedSample(float pitchMod, float pwMod, float filterMod,
 
   // --- v3.5 Q-Compensation Logic ---
   if (currentWaveform == WAVE_SAW) {
-    q = q * 2.0f;
+    q = q * 2.6f; // +30%
   } else if (currentWaveform == WAVE_SINE) {
-    q = q * 3.0f;
+    q = q * 3.9f; // +30%
   }
 
   // Profile Specific Safety
   if (currentProfile == &spkProfile) {
-    q = q * 1.8f; // Increased +50% (from 1.2f) per user request to stop ringing
+    q = q * 2.34f; // +30% from 1.8f
   } else if (currentProfile == &btProfile) {
-    q = q * 1.75f;
+    q = q * 2.275f; // +30% from 1.75f
     if (currentWaveform == WAVE_SINE)
-      q = q * 1.5f;
+      q = q * 1.95f; // +30% from 1.5f
     else if (currentWaveform == WAVE_SQUARE)
-      q = q * 1.5f;
+      q = q * 1.95f;
     else if (currentWaveform == WAVE_TRIANGLE)
-      q = q * 1.2f;
+      q = q * 1.56f; // +30% from 1.2f
   }
 
   if (q > 1.0f)
@@ -2789,12 +2789,15 @@ void triggerNote(int sIdx) {
   if (vIdx == -1)
     vIdx = 0;
 
-  // UNLATCH logic: Manual strum unlatches Arp/Drone
+  // UNLATCH logic removed per user request: Manual strum no longer kills Arp
+  // Latch
+  /*
   if (arpLatch) {
     arpLatch = false;
     releaseLatchedVoices();
     drawArpButton();
   }
+  */
 
   // Trigger Note
   voices[vIdx].trigger(freq, sIdx, currentWaveform, globalPulseWidth,

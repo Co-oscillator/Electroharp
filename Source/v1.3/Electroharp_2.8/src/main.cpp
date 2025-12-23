@@ -414,26 +414,26 @@ float generateMixedSample(float pitchMod, float pwMod, float filterMod,
   // --- v3.5 Q-Compensation Logic ---
   // Waveform-dependent Resonance Tuning
   if (currentWaveform == WAVE_SAW) {
-    q = q * 2.0f;
+    q = q * 2.6f;
   } else if (currentWaveform == WAVE_SINE) {
-    q = q * 3.0f;
+    q = q * 3.9f;
   }
 
   // Profile Specific Safety
   if (currentProfile == &spkProfile) {
-    q = q * 1.2f;
+    q = q * 2.34f;
   } else if (currentProfile == &btProfile) {
     // Bluetooth: Extra heavy damping to prevent "explosions"
-    // Apply global boost to damping (Increased +25% per request)
-    q = q * 1.75f;
+    // Apply global boost to damping (Increased +30% per request)
+    q = q * 2.275f;
 
     // Waveform specific extra protection for BT
     if (currentWaveform == WAVE_SINE) {
-      q = q * 1.5f; // Multiplicative stack
+      q = q * 1.95f; // Multiplicative stack
     } else if (currentWaveform == WAVE_SQUARE) {
-      q = q * 1.5f;
+      q = q * 1.95f;
     } else if (currentWaveform == WAVE_TRIANGLE) {
-      q = q * 1.2f;
+      q = q * 1.56f;
     }
   }
 
