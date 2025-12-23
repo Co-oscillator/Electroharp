@@ -51,6 +51,8 @@ A full snapshot of the stable v1.3 has been created at:
 - **Reliable Editor Launch**: Fine-tuned the Waveform button long-press (600ms) to ensure consistent entry into the Editor across all hardware.
 - **Note Range Shift**: Shifted the base playable range to **C1 - C9** (97 notes total). Both models are now perfectly synchronized to this range, pitched exactly one octave down from the original release.
 - **Precision Touch Calibration**: Moved the calibration targets to the absolute screen corners and added crosshair guides. This ensures that the touch mapping accounts for the full physical display area, eliminating edge misalignment.
+- **Enhanced Filter Damping**: Increased Resonance (Q) compensation by 30% across all waveforms and output profiles. This significantly reduces high-frequency squeaking and ringing, especially on the built-in speaker.
+- **Improved Arp Latch Flow**: Strumming strings now correctly layers over Latched Arp voices instead of cutting them off, allowing for richer polyphonic performances.
 
 ## Verification Results
 

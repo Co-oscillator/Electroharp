@@ -39,8 +39,11 @@
     - [x] Implement Non-linear Volume Slider (Both) <!-- id: 43 -->
     - [x] Shift Playable Range to C1-C9 (97 Notes, Both) <!-- id: 45 -->
     - [x] Fix Touch Calibration Targets & Inset Mapping (Both) <!-- id: 46 -->
-    - [ ] 2.8 Final Tweaks <!-- id: 47 -->
-        - [ ] Fix Octave Button Labels (Missing Text) <!-- id: 48 -->
-        - [ ] Shift Latched Arp Notes +1 Octave <!-- id: 49 -->
-        - [ ] Cap Editor Octave Range at 7 <!-- id: 50 -->
-    - [ ] Final Stability & Sync Verification <!-- id: 44 -->
+    - [x] 2.8 Final Tweaks <!-- id: 47 -->
+        - [x] Fix Octave Button Labels (Missing Text) <!-- id: 48 -->
+        - [x] Shift Latched Arp Notes +1 Octave <!-- id: 49 -->
+        - [x] Cap Editor Octave Range at 7 <!-- id: 50 -->
+    - [x] 3.5 Final Tweaks <!-- id: 51 -->
+        - [x] Increase Q Compensation by 30% <!-- id: 52 -->
+        - [x] Fix Arp Latch cutoff by Strumming <!-- id: 53 -->
+    - [x] Final Stability & Sync Verification <!-- id: 44 -->
