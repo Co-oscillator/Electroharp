@@ -11,7 +11,7 @@ This split-screen interface allows you to choose your audio output mode:
 - **BLUETOOTH (Left - Blue)**: Initializes the Bluetooth logic to scan for external speakers.
 - **CONFIG (Button)**: Enters the System Configuration Menu (LEDs, Audio, Calibration).
 
-![Boot Selection Screen](file:///Users/danielmiller/Documents/Code%20Projects/NTS-3/Triple%20Pitch%20Delay/Source/v1.3/Electroharp_2.8/Release/cyd_boot_screen.png)
+![Boot Selection Screen](/Users/danielmiller/.gemini/antigravity/brain/ff661a68-2484-462f-b8ed-13ec51fe1fa7/cyd_boot_screen.png)
 
 > **[i] Version Note:** 
 > - **3.5" Model**: The CONFIG button is located on the **middle right** (grey button).
@@ -31,7 +31,7 @@ The search results will be displayed as colored tiles.
 
 The main screen is the **Player Interface**, designed for live performance.
 
-![Player Performance Interface](file:///Users/danielmiller/Documents/Code%20Projects/NTS-3/Triple%20Pitch%20Delay/Source/v1.3/Electroharp_2.8/Release/uploaded_image_1766452661946.png)
+![Player Performance Interface](/Users/danielmiller/.gemini/antigravity/brain/ff661a68-2484-462f-b8ed-13ec51fe1fa7/uploaded_image_1766452661946.png)
 
 ### Top Bar Controls
 The top bar contains toggle buttons for global effects and settings.
@@ -81,7 +81,7 @@ Selects the active chord type.
 To enter, **Long Press** the **Waveform Button** (Top Right) for **250ms**.
 To exit, press the **Piano Icon** (Top Left).
 
-![Editor Interface](file:///Users/danielmiller/Documents/Code%20Projects/NTS-3/Triple%20Pitch%20Delay/Source/v1.3/Electroharp_2.8/Release/uploaded_image_1766452858429.png)
+![Editor Interface](/Users/danielmiller/.gemini/antigravity/brain/ff661a68-2484-462f-b8ed-13ec51fe1fa7/uploaded_image_1766452858429.png)
 
 ### Controls
 - **Piano Icon**: Tap to Exit. **Long Press** to edit the Next Waveform (Saw -> Square -> Sine -> Tri have separate settings).
@@ -101,7 +101,7 @@ Accessed from the **Boot Screen**.
 - **AUDIO CONFIG**: Test Audio Hardware (Tone Generator).
 - **CALIBRATION**: Recalibrate Touchscreen.
 
-![Configuration Menu](file:///Users/danielmiller/Documents/Code%20Projects/NTS-3/Triple%20Pitch%20Delay/Source/v1.3/Electroharp_2.8/Release/cyd_config_screen.png)
+![Configuration Menu](/Users/danielmiller/.gemini/antigravity/brain/ff661a68-2484-462f-b8ed-13ec51fe1fa7/cyd_config_screen.png)
 
 ### Runtime LED Toggle
 In **Player Mode**, **Long Press** the **DELAY** button (Top Left) for **2 seconds** to quickly toggle LEDs on/off without rebooting.
