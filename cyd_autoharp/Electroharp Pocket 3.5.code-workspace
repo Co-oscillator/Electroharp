@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../cyd_autoharp_plus"
+		},
+		{
+			"name": "cyd_autoharp",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
