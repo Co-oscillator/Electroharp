@@ -3,6 +3,8 @@
 
 ## 1. System & Connectivity
 
+![Splash Screen (Note: screenshots will slightly differ from the final version)](Media/splash_screen.png)
+
 ### 1. Startup & Audio Selection
 When you power on the device, you will be greeted by the **Boot Selection Screen**.
 This split-screen interface allows you to choose your audio output mode:
